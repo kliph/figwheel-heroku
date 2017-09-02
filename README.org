@@ -1,0 +1,16 @@
+* figwheel-heroku
+
+A Leiningen template for deploying a clojurescript app with a figwheel
+repl to heroku
+
+* Usage
+
+#+BEGIN_SRC sh
+  lein new figwheel-heroku myapp
+#+END_SRC
+
+* License
+
+Copyright © 2017 Cliff Rodgers
+
+See =LICENSE= for more information.

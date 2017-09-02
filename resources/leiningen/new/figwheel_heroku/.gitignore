@@ -1,0 +1,12 @@
+target/
+
+.nrepl-port
+figwheel_server.log
+
+.projectile
+
+resources/public/js/
+out/
+
+*jar
+pom.xml
