@@ -1,5 +1,7 @@
 * figwheel-heroku
 
+[[file:https://img.shields.io/clojars/v/figwheel-heroku/lein-template.svg]]
+
 A Leiningen template for deploying a clojurescript app with a figwheel
 repl to heroku
 
