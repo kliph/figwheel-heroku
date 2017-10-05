@@ -13,6 +13,7 @@
     (main/info "Generating fresh 'lein new' figwheel-heroku project.")
     (->files data
              [".gitignore" (render ".gitignore" data)]
+             [".projectile" (render ".projectile" data)]
              ["LICENSE" (render "LICENSE" data)]
              ["Procfile" (render "Procfile" data)]
              ["README.org" (render "README.org" data)]
