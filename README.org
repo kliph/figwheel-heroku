@@ -11,6 +11,16 @@ repl to heroku
   lein new figwheel-heroku myapp
 #+END_SRC
 
+* Testing
+
+See: https://github.com/technomancy/leiningen/blob/master/doc/TEMPLATES.md#testing-your-template
+
+To install locally
+
+#+BEGIN_SRC sh
+  lein install
+
+#+END_SRC
 * License
 
 Copyright © 2017 Cliff Rodgers
