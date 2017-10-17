@@ -7,7 +7,7 @@
   :min-lein-version "2.5.3"
   :repl-options {:init-ns dev.repl}
   :dependencies [[org.clojure/clojure "1.9.0-beta1"]
-                 [org.clojure/clojurescript "1.9.908"]
+                 [org.clojure/clojurescript "1.9.946"]
                  [reagent "0.8.0-alpha1"]
                  [compojure "1.6.0"]
                  [ring/ring-jetty-adapter "1.6.2"]
