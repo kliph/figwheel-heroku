@@ -14,7 +14,8 @@
                  [ring/ring-ssl "0.3.0"]
                  [environ "1.1.0"]]
   :plugins [[environ/environ.lein "0.3.1"]
-            [lein-cljsbuild "1.1.7"]]
+            [lein-cljsbuild "1.1.7"]
+            [lein-figwheel "0.5.13"]]
   :hooks [environ.leiningen.hooks]
   :figwheel {:css-dirs ["resources/public/css"]
              :server-port 3450}
