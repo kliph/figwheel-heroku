@@ -6,9 +6,9 @@
   :clean-targets ^{:protect false} [:target-path "out" "resources/public/js"]
   :min-lein-version "2.5.3"
   :repl-options {:init-ns dev.repl}
-  :dependencies [[org.clojure/clojure "1.9.0-RC2"]
+  :dependencies [[org.clojure/clojure "1.10.0-alpha4"]
                  [org.clojure/clojurescript "1.9.946"]
-                 [reagent "0.8.0-alpha1"]
+                 [reagent "0.8.0-alpha2"]
                  [compojure "1.6.0"]
                  [ring/ring-jetty-adapter "1.6.2"]
                  [ring/ring-ssl "0.3.0"]
