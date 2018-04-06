@@ -22,5 +22,6 @@
              ["project.clj" (render "project.clj" data)]
              ["dev/dev/repl.clj" (render "repl.clj" data)]
              ["resources/public/css/styles.css" (render "styles.css" data)]
+             ["resources/public/sw.js" (render "sw.js" data)]
              ["src/{{sanitized}}/web.clj" (render "web.clj" data)]
              ["scripts/server" (render "server" data) :executable true])))
