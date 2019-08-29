@@ -1,4 +1,4 @@
-(defproject figwheel-heroku/lein-template "0.2.2"
+(defproject figwheel-heroku/lein-template "0.2.3"
   :description "A leiningen template for deploying a clojurescript app with a figwheel repl to heroku"
   :url "https://github.com/kliph/figwheel-heroku"
   :license {:name "MIT License"
