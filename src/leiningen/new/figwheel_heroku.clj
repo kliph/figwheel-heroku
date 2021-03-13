@@ -14,6 +14,7 @@
     (->files data
              [".gitignore" (render "gitignore" data)]
              [".projectile" (render "projectile" data)]
+             ["app.json" (render "app.json" data)]
              ["LICENSE" (render "LICENSE" data)]
              ["Procfile" (render "Procfile" data)]
              ["README.org" (render "README.org" data)]
